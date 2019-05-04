@@ -14,7 +14,7 @@ const MAX_DESCRIPTION = 50;
  * @param description command description
  */
 const formatDescription = description => {
-  return description.slice(0, MAX_DESCRIPTION);
+  return description.replace(/\n/gi, "").slice(0, MAX_DESCRIPTION);
 };
 
 /**
