@@ -5,8 +5,8 @@
   "author": "Sean Smith <sean.smith.2009@gmail.com>",
   "license": "MIT",
   "repository": {
-    "type": "https",
-    "url": "https://github.com/bonham000/npm-script-runner"
+    "type": "git",
+    "url": "https://github.com/bonham000/npm-script-prompt.git"
   },
   "main": "index.js",
   "bin": {
