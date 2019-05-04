@@ -16,7 +16,7 @@
     "test": "node index.js",
     "command:one": "echo \"\nRunning an example command...\n\"",
     "command:two": "echo \"\nRunning an example command...\n\"",
-    "command:three": "echo \"\nRunning an example command..\n\"."
+    "command:three": "echo \"\nRunning an example command...\n\""
   },
   "dependencies": {
     "global": "^4.3.2",
