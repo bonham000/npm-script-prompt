@@ -1,5 +1,5 @@
 {
-  "name": "npm-script-runner",
+  "name": "npm-script-prompt",
   "version": "0.0.1",
   "description": "An interactive runner for an npm project's package.json scripts",
   "author": "Sean Smith <sean.smith.2009@gmail.com>",

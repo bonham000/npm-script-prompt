@@ -1,4 +1,4 @@
-# npm-script-runner
+# npm-script-prompt
 
 An interactive runner for a npm project `package.json` scripts, inspired by [`interactive-scripts`](https://github.com/hawkins/interactive-scripts) by Josh Hawkins.
 
@@ -7,8 +7,8 @@ An interactive runner for a npm project `package.json` scripts, inspired by [`in
 Install globally (or run with `npx`).
 
 ```
-npm i -g npm-script-runner
-yarn global add npm-script-runner
+npm i -g npm-script-prompt
+yarn global add npm-script-prompt
 ```
 
 ## Usage
