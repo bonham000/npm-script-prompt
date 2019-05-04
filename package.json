@@ -1,0 +1,38 @@
+{
+  "name": "npm-script-runner",
+  "version": "0.0.1",
+  "description": "An interactive runner for an npm project's package.json scripts",
+  "author": "Sean Smith <sean.smith.2009@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/bonham000/npm-script-runner"
+  },
+  "main": "index.js",
+  "bin": {
+    "run": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js",
+    "command:one": "echo \"\nRunning an example command...\n\"",
+    "command:two": "echo \"\nRunning an example command...\n\"",
+    "command:three": "echo \"\nRunning an example command..\n\"."
+  },
+  "dependencies": {
+    "inquirer": "^3.0.6",
+    "npm-run-all": "^4.0.2",
+    "prettier": "^1.17.0",
+    "read-package-json": "^2.0.5"
+  },
+  "keywords": [
+    "cli",
+    "tool",
+    "npm",
+    "yarn",
+    "script",
+    "runner",
+    "prompt",
+    "scripts",
+    "interactive"
+  ]
+}
