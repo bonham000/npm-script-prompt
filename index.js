@@ -72,7 +72,7 @@ const parseFileAndGatherChoices = data => {
 const promptUser = (error, data) => {
   if (error) {
     console.error("An error occurred reading package.json!\n---");
-    console.error(err.message);
+    console.error(error.message);
     process.exit(1);
   } else {
     const choices = parseFileAndGatherChoices(data);
