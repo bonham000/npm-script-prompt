@@ -25,9 +25,9 @@ const formatDescription = description => {
  * @param maxLength longest command name length
  */
 const formatScriptOption = (script, description, maxLength) => {
-  return `${script}${" ".repeat(
-    maxLength - script.length,
-  )}- ${formatDescription(description)}`;
+  const len = maxLength - script.length;
+  const adjustedLen = len > 0 ? len : 0;
+  return `${script}${" ".repeat(adjustedLen)}- ${formatDescription(description)}`;
 };
 
 /**
