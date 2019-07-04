@@ -1,6 +1,6 @@
 {
   "name": "npm-script-prompt",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An interactive runner for an npm project's package.json scripts",
   "author": "Sean Smith <sean.smith.2009@gmail.com>",
   "license": "MIT",
